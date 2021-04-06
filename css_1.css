@@ -10,9 +10,40 @@ p{
 
 }
 nav{
-	width:100%;
-	padding:10px 0;
+  width: 200%;
+  padding: 5px 0;
+}
 
+nav .menu{
+  max-width: 1250px;
+  /* background-color:red; */
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color:red;
+  font-size: 25px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+  list-style: none;
+}
+.menu ul li a{
+  margin-left: 7px;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.menu ul li a:hover{
+  background:white;
+  color:black;
 }
 .center{
   position:absolute;
@@ -24,11 +55,13 @@ nav{
 #abou{
   padding-right: 200px;
 }
-#rummii{
+.rummii{
   color:#116466;
-  padding-left: 50px;
-  width: 80%;
-  height:70px;
+  padding-left: 30px;
+  font-size: 30px;
+
+  /*width: 80%;*/
+  height:40px;
 
 }
 #lef{
@@ -49,21 +82,24 @@ h4{
 }
 ol{
   color:#2C3531;
-  padding-left: 90px;
+  padding-left: 110px;
   padding-right: 50px
   width: 80%;
+  font-weight: bold;
 }
 ul{
   color: #2C3531;
   padding-left: 90px;
   padding-right: 100px
-  width: 80%;
+  /*width: 80%;*/
+   top: 110px;
 }
 table{
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 80%;
   color: #2C3531;
+  font-size: 20px;
   
 }
 th {
@@ -83,8 +119,9 @@ td {
 
 #t1{
   position: absolute;
-  top: 110px;
+  top: 210px;
   left:100px
+
 }
 .qu{
 
@@ -93,3 +130,49 @@ td {
   text-align: center;
 
 }
+#wxp{
+  color:#2C3531;
+  padding-left: 100px;
+  padding-right: 50px
+  width: 80%;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+#fon{
+  font-size: 20px;
+   font-style: oblique;
+}
+#sri{
+  color:#116466;
+  padding-left: 30px;
+  font-size: 30px;
+
+  /*width: 80%;*/
+  height:40px;
+
+}
+{box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color:#AFEEEE; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.Python {width: 90%; background-color: #4CAF50;} /* Green */
+.Java {width: 80%; background-color: #2196F3;} /* Blue */
+.POSTGRESQL {width: 80%; background-color: #f44336;} /* Red */
+.HTML {width: 90%; background-color: #808080;} /* Dark Grey */
+.R{width: 65%; background-color: #191970} /* Red */
+.ML {width: 70%; background-color:#DA70D6
+;
+}
+ 
