@@ -1,0 +1,302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"real",
+				"real"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Build: Cancel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 56.0,
+		"history":
+		[
+			"javaExample.java",
+			"javac javaExample.java"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/srikanth/Downloads/HTML/Module-1/por.html",
+		"/home/srikanth/Downloads/HTML/Module-1/bootstrap.html",
+		"/home/srikanth/Downloads/HTML/Module-1/About.html",
+		"/home/srikanth/Downloads/HTML/Module-1/css_1.css",
+		"/home/srikanth/Downloads/HTML/n.css",
+		"/home/srikanth/Downloads/HTML/box.html",
+		"/home/srikanth/.cache/.fr-9Ovq5D/RoundButtons/index.html",
+		"/home/srikanth/.cache/.fr-3g72fE/RoundButtons/css/style.css",
+		"/home/srikanth/Downloads/HTML/Module-4/WhatsApp Image 2020-10-31 at 18.00.02.jpeg",
+		"/home/srikanth/Documents/Html/border.html",
+		"/home/srikanth/Downloads/bolckchain/project/final_project/project1.py",
+		"/home/srikanth/Downloads/bolckchain/blockchain/snakecoin-server-full-code.py",
+		"/home/srikanth/Downloads/bolckchain/day-15/assignment.py",
+		"/home/srikanth/Downloads/bolckchain/day-12/ruff.py",
+		"/home/srikanth/Downloads/bolckchain/day-12/mod_12_ass1.py",
+		"/home/srikanth/Downloads/bolckchain/day-10/assignment-3.py",
+		"/home/srikanth/Downloads/bolckchain/day-10/assignment-2.py",
+		"/home/srikanth/Downloads/bolckchain/day-8/assignment_2.py",
+		"/home/srikanth/Downloads/bolckchain/day-10/assignment-4.py",
+		"/home/srikanth/Downloads/bolckchain/day-8/ruff.py",
+		"/home/srikanth/Downloads/bolckchain/day-8/assignment-1.py",
+		"/home/srikanth/Downloads/bolckchain/day-8/assignment-2.py",
+		"/home/srikanth/Downloads/bolckchain/day-7/ruff.py",
+		"/home/srikanth/Downloads/srikanthaddanki222@msitprogram.net_p01quicksortimprovments_1_QuickImpd.java",
+		"/home/srikanth/Downloads/bolckchain/day-8/assignment-2",
+		"/home/srikanth/Downloads/bolckchain/day-5/assignment-1.py",
+		"/home/srikanth/Downloads/bolckchain/day-5/assignment-3.py",
+		"/home/srikanth/Downloads/bolckchain/day-5/day_5_assignment_3/assignment-3.py",
+		"/home/srikanth/Downloads/bolckchain/day-5/assignment-2.py",
+		"/home/srikanth/Downloads/cspp_final/hotSkills-handout/hotSkills.py",
+		"/home/srikanth/Downloads/bolckchain/day-3/ruff.py",
+		"/home/srikanth/Downloads/bolckchain/day-4/assignment-2.py",
+		"/home/srikanth/Downloads/bolckchain/day-4/aggignment-1.py",
+		"/home/srikanth/Downloads/bolckchain/day-3/assignment-2.py",
+		"/home/srikanth/Downloads/bolckchain/day-3/assignment-1.py",
+		"/home/srikanth/Downloads/bolckchain/day-1/assignment-3.py",
+		"/home/srikanth/Downloads/bolckchain/day-1/file.txt",
+		"/home/srikanth/Downloads/bolckchain/day-1/assignment-2.py",
+		"/home/srikanth/Downloads/bolckchain/day-1/assignment-1.py",
+		"/home/srikanth/Downloads/bolckchain/day-2/day2_2.py",
+		"/home/srikanth/Downloads/bolckchain/day-2/day2_1.py",
+		"/home/srikanth/Downloads/bolckchain/day-3/assignment-1",
+		"/home/srikanth/Downloads/bolckchain/day-2/ruff.py",
+		"/home/srikanth/Downloads/html_project_hub/Todo.html",
+		"/home/srikanth/Downloads/bolckchain/day-1/A-3.txt",
+		"/home/srikanth/Downloads/bolckchain/assignment-3",
+		"/home/srikanth/Downloads/bolckchain/assignment-2",
+		"/home/srikanth/Downloads/html_project_hub/Todo.css",
+		"/home/srikanth/Downloads/html_project_hub/ib_hub_css.css",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-5/canQueenAttack-handout/canQueenAttack.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-5/nthTidyNumber-handout/nthTidyNumber.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-5/removeSetDuplicates-handout/removeSetDuplicates.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-5/fabricYards-handout/fabricYards.py",
+		"/home/srikanth/Downloads/html_project_hub/ib_hub.html",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-4/firstNEvenFibonacciNumbers-handout/firstNEvenFibonacciNumbers.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-4/nthLeftTruncatablePrime-handout/nthLeftTruncatablePrime.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-4/getKthDigit-handout/getKthDigit.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/module-4/recursionOnlyAlternatingSum-handout/recursionOnlyAlternatingSum.py",
+		"/home/srikanth/Documents/Unknown folder/html files/atom.html",
+		"/home/srikanth/Downloads/CN/module-6/webserver.py",
+		"/home/srikanth/Downloads/CN/module-6/ruff.py",
+		"/home/srikanth/Downloads/CN/module-6/CNF_project/project/service.py",
+		"/home/srikanth/Downloads/CN/module-6/CNF_project/CNF_project/project/service.py",
+		"/home/srikanth/Downloads/CN/module-6/CNF_project/CNF_project/service.py",
+		"/home/srikanth/Downloads/webserver1.py",
+		"/home/srikanth/Downloads/servingday2.py",
+		"/home/srikanth/Downloads/CN/module-6/CNF_project/CNF_project/ruff.py",
+		"/home/srikanth/Downloads/CN/module-6/CNF_project/CNF_project/webserver.py",
+		"/home/srikanth/Downloads/webserver (1).py",
+		"/home/srikanth/Downloads/CN/module-6/index.html",
+		"/home/srikanth/Downloads/CN/module-6/index1.html",
+		"/home/srikanth/Downloads/CN/module-6/sever.py",
+		"/home/srikanth/Downloads/CN/module-6/project-1",
+		"/home/srikanth/Downloads/CN/module-3/module-3/server.py",
+		"/home/srikanth/Downloads/CN/module-2/Day2/server.py",
+		"/home/srikanth/Music/Day2/client.py",
+		"/home/srikanth/Music/Day2/server.py",
+		"/home/srikanth/Music/Day2/simple.txt",
+		"/home/srikanth/Downloads/CN/module-2/Day2/client.py",
+		"/home/srikanth/Downloads/CN/Day 1 Assignment 3 Student Copy/Day 1 Student Copy/chat_server.py",
+		"/home/srikanth/Downloads/CN/Day 1 Assignment 3 Student Copy/Day 1 Student Copy/chat_client.py",
+		"/home/srikanth/Downloads/ADS/collinear/FastCollinearPoints.java",
+		"/home/srikanth/Downloads/ADS/module-14/ransomnote-handout/ransomnote.java",
+		"/home/srikanth/Downloads/Remideal_CSPP/Remedial_0/vowelCount-handout/vowelCount.py",
+		"/home/srikanth/Downloads/Remideal_CSPP/Remedial_0/nthFibonacciNumber-handout/nthFibonacciNumber.py",
+		"/home/srikanth/Downloads/ADS/module-3/queues/Deque.java",
+		"/home/srikanth/Downloads/ADS/module-7/MergeX-handout/MergeX.java",
+		"/home/srikanth/Downloads/MergeX.java",
+		"/home/srikanth/Downloads/ADS/module-2/BalancedParenthesis-handout/BalancedParenthesis.java",
+		"/home/srikanth/Downloads/ADS/module-4/QuickFindUF-handout/QuickFindUF.java",
+		"/home/srikanth/Downloads/ADS/module-1/ThreeSumFast-handout/ThreeSumFast.java",
+		"/home/srikanth/Music/Board.java",
+		"/home/srikanth/Downloads/QuickUnionUF.java",
+		"/home/srikanth/Downloads/BalancedParenthesis.java",
+		"/home/srikanth/Downloads/ADS/ThreeSumFast-handout/ThreeSumFast.java",
+		"/home/srikanth/Downloads/ADS/CommonElements-handout/CommonElements.java",
+		"/home/srikanth/Downloads/Board.java",
+		"/home/srikanth/Downloads/ComplexNumber/PSC/ConwayGameofLife/src/Board.java",
+		"/home/srikanth/Documents/test.java",
+		"/home/srikanth/Downloads/PSC/cgl/CGL/cgl_version_2.1/Test.java",
+		"/home/srikanth/Downloads/PSC/cgl/CGL/cgl_version_2.1/Playgame.java",
+		"/home/srikanth/Downloads/PSC/cgl/CGL/cgl_version_2.1/Board.java",
+		"/home/srikanth/Downloads/PSC/module-3/CGL_Board-student-handout/CGLBoard.java",
+		"/home/srikanth/Downloads/PSC/cgl/CGL/ComplexNumber/src/CGL/ComplexNumber/src/TestJunit.java",
+		"/home/srikanth/Downloads/PSC/module-9/FSM04success-student-handout/src/fsm04/CharCode.java",
+		"/home/srikanth/Downloads/PSC/module_8_1.4/Account.java",
+		"/home/srikanth/Downloads/PSC/module_8_1.4/Bank.java",
+		"/home/srikanth/Downloads/PSC/module_8_1.4/CurrentAccount.java",
+		"/home/srikanth/Downloads/PSC/module_8_1.4/CheckingAccount.java",
+		"/home/srikanth/Downloads/Banking_Application_Version1.4/Banking_Application_Version1.4/Account.java",
+		"/home/srikanth/Desktop/Test.java",
+		"/home/srikanth/Downloads/practice java project/Test.java",
+		"/home/srikanth/Desktop/Animal.java",
+		"/home/srikanth/Desktop/Dog.java",
+		"/home/srikanth/Desktop/test.java",
+		"/home/srikanth/Downloads/Account (1)/Account.java",
+		"/home/srikanth/Downloads/PSC/Module-7/Account.java",
+		"/home/srikanth/Downloads/PSC/Module-7/Account1.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/AccountInterface.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/AccountTest.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/Account.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/CurrentAccount.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/output01.txt",
+		"/home/srikanth/Downloads/PSC/module-5/BankingApplication_1.1/CurrentAccount.java",
+		"/home/srikanth/Downloads/PSC/module-5/BankingApplication_1.1/SavingsAccount.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/SavingsAccount.java",
+		"/home/srikanth/Downloads/PSC/AccountTest.java",
+		"/home/srikanth/Downloads/PSC/module-6/copy_2.0/CheckingAccount.java"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

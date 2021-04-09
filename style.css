@@ -70,10 +70,24 @@ body {
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
 }
-.Python {width: 90%; background-color: #4CAF50;} /* Green */
+/*.Python {width: 90%; background-color: #4CAF50;} /* Green */
 .Java {width: 80%; background-color: #2196F3;} /* Blue */
-.POSTGRESQL {width: 80%; background-color: #f44336;} /* Red */
+.POSTGRESQL {width: 80%; background-color: #f44336;}  Red 
 .HTML {width: 90%; background-color: #808080;} /* Dark Grey */
-.R{width: 65%; background-color: #191970} /* Red */
+.R{width: 65%; background-color: #191970;} /* Red */
 .ML {width: 70%; background-color:#DA70D6
 ;
+}
+*/#fon{
+  font-size: 20px;
+   font-style: oblique;
+}
+#wxp{
+  color:white;
+  padding-left: 100px;
+  padding-right: 50px
+  width: 80%;
+  font-weight:auto;
+  font-size: 20px;
+
+}
