@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no"/>
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap Js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -15,7 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/996973c893.js"></script>
@@ -23,13 +22,50 @@
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
 
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="container navigation pt-3">
+    <!----------------------------------------Nav bar--------------------------------------->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark lead">
+      <div class="col-6 d-flex justify-content-start align-items-center ">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white"> Srikanth Portfolio</h5>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+          <span class="navbar-toggler-icon">
+            
+          </span>
+          
+        </button>
+        <div class="collapse navbar-collapse text-center mr-2" id="collapsenavbar">
+          <ul class="navbar-nav ml-auto text-white">
+            <li class="nav-item mr-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+              
+            </li>
+            <li class="nav-item mr-3">
+              <a href="#Qualifications" class="text-white navigation-link">Qualifications</a>
+              
+            </li>
+            <li class="nav-item mr-3">
+                <a href="#projects" class="text-white navigation-link">Projects</a>
+              
+            </li>
+            <li class="nav-item mr-3">
+              <a href="#social-media"target="_blank" class="text-white navigation-link">Contacts</a>
+              
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+      
+    </nav>
+    <!------------------------------------navigation--------------------------------------->
+   <!--  <div class="container navigation pt-3">
       <div class="row">
         <div class="col-6 d-flex justify-content-start align-items-center">
           <i class="fas fa-code fa-2x text-warning pb-3"></i>
@@ -56,7 +92,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Main Container -->
     <div class="main-container container">
@@ -72,7 +108,7 @@
       </div>
     </div>
 
-    <div id="about" class="container about p-3">
+    <div id="about" class="container about p-5 lead">
       <div class="row">
         <!-- <div class="col-6">
           <img src="file:///home/srikanth/Pictures/Wallpapers/srikanth.jpg" class="img-fluid" />
@@ -122,12 +158,12 @@
     <br>
 
     <!-- About Section -->
-    <div id="Qualifications" class="container about p-5">
+    <div id="Qualifications" class="container about p-5 lead">
       <div class="row">
         <!-- <div class="col-6">
           <img src="file:///home/srikanth/Pictures/Wallpapers/srikanth.jpg" class="img-fluid" />
         </div> -->
-        <div class = "container">
+        <div class = "container-fluid lead">
         <div class="col-12 pl-12 pt-5 pb-3 text-white">
           <h2 class="text-warning">Qualifications</h2>
           <h3 class="m-heading">Scholastic Achivements</h3>
@@ -176,27 +212,27 @@
                 <div class="skills Python">90%</div>
                 </div> --> 
                 <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated"style="width:80%"> python 80%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated lead"style="width:80%"> python 80%</div>
                 </div> 
                 <br>
                 <div class="progress">
-                <div class="progress-bar progress-bar bg-success progress-bar-animated" style="width:60%"> Java 60%</div>
+                <div class="progress-bar progress-bar bg-success progress-bar-animated lead" style="width:60%"> Java 60%</div>
                 </div>
                 <br>
                 <div class="progress">
-                <div class="progress-bar progress-bar bg-info progress-bar-animated" style="width:80%">POSTGRESQL 80%</div>
+                <div class="progress-bar progress-bar bg-info progress-bar-animated lead" style="width:80%">POSTGRESQL 80%</div>
                 </div>
                 <br>
                 <div class="progress">
-                <div class="progress-bar progress-bar bg-warning progress-bar-animated" style="width:90%"> HTML 90%</div>
+                <div class="progress-bar progress-bar bg-warning progress-bar-animated lead" style="width:90%"> HTML 90%</div>
                 </div>
                 <br>
                 <div class="progress">
-                <div class="progress-bar progress-bar bg-danger progress-bar-animated" style="width:50%"> R 50%</div>
+                <div class="progress-bar progress-bar bg-danger progress-bar-animated lead" style="width:50%"> R 50%</div>
                 </div>
                 <br>
                 <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"> Machine Learning 70%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated lead" style="width:70%"> Machine Learning 70%</div>
                 </div>
                 <!-- <li>Java</li>
                 <div class ="container">
@@ -220,17 +256,19 @@
                 </div> -->
             </ol> 
       <h2 >Work Experience:</h2> 
-          <p id = "wxp">  I have 8-Months of experience in state power sector.</p>
+          <p id = "wxp" class="lead">  I have 8-Months of experience in state power sector.</p>
           <button class="btn btn-outline-warning" href="https://www.instagram.com/srriikantth21/">Learn More</button>
         </div>
       </div>
     </div>
 
     <!---------------------------------------------- Projects Section ------------------------------------------------------->
+     
     <div id="projects" class="container mt-5 pt-5">
       <h1 class="text-warning mb-3 pb-2">My Projects</h1>
-      <div class="row">
-        <div class="col-4 mb-5">
+    <!-- <div class="bs-example"> -->
+    <div class="row"> 
+      <div class="col-6 mb-5 lead">
           <div class="card" style="width: 18rem;">
             <img
               src="file:///home/srikanth/Pictures/Wallpapers/upto100.jpg"
@@ -247,12 +285,16 @@
             </div>
           </div>
         </div>
+      </div>
+    <!-- </div> -->
         <!-----------------------------------------------------------------project-2---------------------------->
-        <div class="col-4 mb-5">
+        <div class="bs-example">
+        <div class="row">
+        <div class="col-4 mb-5 lead">
           <div class="card" style="width: 18rem;">
             <img
               src="file:///home/srikanth/Pictures/Wallpapers/collinear.png"
-              class="card-img-top img-fluid"
+              class="card-img-top img"
               alt="..."
               style="height: 13rem;"
             />
@@ -268,7 +310,12 @@
             </div>
           </div>
         </div>
-        <div class="col-4 mb-5">
+        </div>
+      </div>
+      <!-------------------------------project----------->
+        <div class="bs-example">
+        <div class="row">
+        <div class="col-4 mb-5 lead">
           <div class="card" style="width: 18rem;">
             <img
               src="file:///home/srikanth/Pictures/Wallpapers/conway.png"
@@ -276,7 +323,7 @@
               alt="..."
               style="height: 13rem;"
             />
-            <div class="card-body">
+            <div class="card-body lead">
               <h5 class="card-title">Project Name: Conway's Game Of Life</h5>
               <p class="card-text">
                Brief descriftion: It is a major project where we were asked to build Conway's Game Of Life Using its conditions. The Game of Life, also known simply a Life, is a cellular automation devised by
@@ -287,7 +334,11 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
         <!-----------------------------------project-3------------------------------->
+        <div class="bs-example">
+        <div class="row">
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
             <img
@@ -296,9 +347,9 @@
               alt="..."
               style="height: 13rem;"
             />
-            <div class="card-body">
+            <div class="card-body lead">
               <h5 class="card-title">Project Name: Bus Bunching</h5>
-              <p class="card-text">
+              <p class="card-text lead">
                 Brief descriftion: In this project we were asked to determine the routes and timings of buses in petersburg using scraping, screening and data visualization.
 
               </p>
@@ -306,7 +357,11 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
         <!------------------------------------------------project-4--------------------------->
+        <div class="bs-example">
+        <div class="row">
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
             <img
@@ -315,7 +370,7 @@
               alt="..."
               style="height: 13rem;"
             />
-            <div class="card-body">
+            <div class="card-body lead">
               <h5 class="card-title">Project Name: Randomized Queues</h5>
               <p class="card-text">
                 Brief description: In this project we were asked to implement enque and deque techniques using Queues.
@@ -324,7 +379,11 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
         <!------------------------------------------------project-5---------------------------->
+        <div class="bs-example">
+        <div class="row">
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
             <img
@@ -333,7 +392,7 @@
               alt="..."
               style="height: 13rem;"
             />
-            <div class="card-body">
+            <div class="card-body lead">
               <h5 class="card-title">Project Name: Blockchain Technology using Banking Transactions</h5>
               <p class="card-text">
                 Brief description: In this project I developed Rsa and sha algoritham and using private and public keys used to encryption and decryption process,hash id is transfer to reciever and Qr code option have used to make more transaction. 
@@ -350,17 +409,17 @@
       <div class="container text-white py-5">
         <h4 class="text-warning">CONTACT DETAILS:</h4>
        
-        <p><strong>Name:</strong> Srikanth <br>
+        <p class="lead"><strong>Name:</strong> Srikanth <br>
         <br>
-        <strong>Phone No:</strong> 9553369761<br>
+         <p class="lead"><strong>Phone No:</strong>9553369761</p><br>
         <br>
-        <strong>Email ID:</strong> srikanthaddanki222@msitprogram.net<br>
+        <p class="lead"><strong>Email ID:</strong> srikanthaddanki222@msitprogram.net</p><br>
         <div class="row pt-5">
           <div class="col-3 media_link btn" href="#">
             <div class="row">
               <div class="col-6 d-flex justify-content-start">
                 <!-- <h3 class="m-0 pt-2 text-white">LinkedIn</h3> -->
-                <a href="https://www.linkedin.com/in/srikanth-addanki-b965921b7" class="m-0 pt-2 text-white">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/srikanth-addanki-b965921b7" class="m-0 pt-2 text-white lead">LinkedIn</a>
               </div>
               <div class="col-6 d-flex justify-content-end align-items-center">
                 <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
@@ -372,7 +431,7 @@
             <div class="row">
               <div class="col-6 d-flex justify-content-start">
                 <!-- <h3 class="m-0 pt-2 text-white">Github</h3> -->
-                <a href="https://github.com/Sri-addanki-5" class="m-0 pt-2 text-white">Github</a>
+                <a href="https://github.com/Sri-addanki-5" class="m-0 pt-1 text-white lead">Github</a>
               </div>
               <div class="col-6 d-flex justify-content-end align-items-center">
                 <i class="fab fa-github fa-2x text-secondary"></i>
@@ -384,7 +443,7 @@
             <div class="row">
               <div class="col-6 d-flex justify-content-start">
                 <!-- <h3 class="m-0 pt-2 text-white">Youtube</h3> -->
-                <a href="https://www.youtube.com/watch?v=dgKSqz3it50" class="m-0 pt-2 text-white">Youtube</a>
+                <a href="https://www.youtube.com/watch?v=dgKSqz3it50" class="m-0 pt-2 text-white lead">Youtube</a>
               </div>
               <div class="col-6 d-flex justify-content-end align-items-center">
                 <i class="fab fa-youtube fa-2x text-secondary"></i>
@@ -401,13 +460,13 @@
            </div> -->
 
 
-           <div class="container">
+           <div class="container-fluid">
             <pre>         </pre>
               <h2>Message Me</h2>
               <form>
                   <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    <input type="email" class="form-control lead" id="email" placeholder="Enter email">
                   </div>
                   <div class="form-group">
                     <label for="pwd">Password:</label>
@@ -419,10 +478,49 @@
                 <button type="submit" class="btn btn-warning">Submit</button>
              </form>
             </div>
+         <!----------------------------------------------model start here----------------------------------------->
+    <div class="bs-example">
+    <pre>         </pre>  
+    <div class="row "> 
+
+    <!-- Button HTML (to Trigger Modal) -->
+    <button type="button" class="btn btn-primary mr-1" data-toggle="modal" data-target="#myModal" data-title="Feedback">Feedback</button><br>
+    <button type="button" class="btn btn-primary mr-1" data-toggle="modal" data-target="#myModal" data-title="Report Error">Report Error</button><br>
+    <button type="button" class="btn btn-primary mr-1" data-toggle="modal" data-target="#myModal" data-title="Contact Us">Contact Us</button>
+
+          <div id="myModal" class="modal fade" tabindex="-1">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <form>
+                          <div class="modal-header">
+                              <h5 class="modal-title">Modal Window</h5>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           </div>
+                           <div class="modal-body">                        
+                                <div class="form-group">
+                                   <label class="control-label">Email:</label>
+                                   <textarea class="form-control"> Email here</textarea>
+                                   <!-- <input type="text" class="form-control"> -->
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Message:</label>
+                                    <textarea class="form-control"> text here</textarea>
+                                </div>                        
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                      </form>
+                    </div>
+                </div>
+              </div>
+           </div>   
 
 
         </div>
       </div>
     </div>
+  </div>
 </body>
 </html>
